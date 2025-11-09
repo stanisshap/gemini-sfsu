@@ -3,7 +3,10 @@
 
 A fork of Gemini. Also available on [Overleaf](https://www.overleaf.com/read/bxgxyqrmjthf#50ff30).
 
-<img width="9600" height="7200" alt="Unofficial_Poster_Template_for_SFSU" src="https://github.com/user-attachments/assets/df76c37a-8eb4-4ac2-af16-603cd0fc3dbf" />
+<img width="9600" height="7200" alt="Unofficial_Poster_Template_for_SFSU" src="https://github.com/user-attachments/assets/5a034b9e-adf3-4e68-965d-68d8bf431d7e" /><br><br>
+Another example:
+
+<img width="9600" height="7200" alt="Shaposhnikov_FEWS_Poster" src="https://github.com/user-attachments/assets/9083d95d-e026-4536-bc03-42c142cf7f77" />
 
 ## Dependencies
 
