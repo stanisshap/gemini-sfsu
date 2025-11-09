@@ -1,5 +1,6 @@
-% Gemini theme
-% https://github.com/anishathalye/gemini
+% Unofficial Poster Template for SFSU
+% https://github.com/stanisshap/gemini-sfsu
+% a fork of https://github.com/anishathalye/gemini
 
 \documentclass[final]{beamer}
 
@@ -9,9 +10,12 @@
 
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
-\usepackage[size=custom,width=120,height=72,scale=1.0]{beamerposter}
+% 48 x 36 
+\usepackage[size=custom,width=121.92,height=91.44,scale=1.0]{beamerposter}
+% 36 x 24 \usepackage[size=custom,width=91.44,height=60.96,scale=1.0]{beamerposter}
+% 24 x 18 \usepackage[size=custom,width=60.96,height=45.72,scale=1.0]{beamerposter}
 \usetheme{gemini}
-\usecolortheme{gemini}
+\usecolortheme{sfsu}
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{tikz}
@@ -57,8 +61,8 @@
 % ====================
 
 % use this to include logos on the left and/or right side of the header:
-% \logoright{\includegraphics[height=7cm]{logo1.pdf}}
-% \logoleft{\includegraphics[height=7cm]{logo2.pdf}}
+\logoright{\includegraphics[height=7cm]{logos/cob_logo.png}}
+\logoleft{\includegraphics[height=7cm]{logos/SFSU_logo.png}}
 
 % ====================
 % Body
@@ -106,6 +110,24 @@
     \end{itemize}
 
     Eget augue porta, bibendum venenatis tortor.
+
+    Nam vulputate nunc felis, non condimentum lacus porta ultrices. Nullam sed
+    sagittis metus. Etiam consectetur gravida urna quis suscipit.
+
+    \begin{itemize}
+      \item \textbf{Mauris tempor} risus nulla, sed ornare
+      \item \textbf{Libero tincidunt} a duis congue vitae
+      \item \textbf{Dui ac pretium} morbi justo neque, ullamcorper
+      \item \textbf{Mauris tempor} risus nulla, sed ornare
+      \item \textbf{Libero tincidunt} a duis congue vitae
+      \item \textbf{Dui ac pretium} morbi justo neque, ullamcorper
+    \end{itemize}
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultricies
+    eget libero ac ullamcorper. Integer et euismod ante. Aenean vestibulum
+    lobortis augue, ut lobortis turpis rhoncus sed. Proin feugiat nibh a
+    lacinia dignissim. Proin scelerisque, risus eget tempor fermentum, ex
+    turpis condimentum urna, quis malesuada sapien arcu eu purus.
 
   \end{block}
 
@@ -176,6 +198,7 @@
       \begin{tikzpicture}
         \begin{axis}[
             scale only axis,
+            width=0.6\colwidth,
             no markers,
             domain=0:2*pi,
             samples=100,
@@ -265,6 +288,12 @@
     Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
     inceptos himenaeos. Phasellus libero enim, gravida sed erat sit amet,
     scelerisque congue diam. Fusce dapibus dui ut augue pulvinar iaculis.
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultricies
+    eget libero ac ullamcorper. Integer et euismod ante. Aenean vestibulum
+    lobortis augue, ut lobortis turpis rhoncus sed. Proin feugiat nibh a
+    lacinia dignissim. Proin scelerisque, risus eget tempor fermentum, ex
+    turpis condimentum urna, quis malesuada sapien arcu eu purus.
 
     \begin{table}
       \centering
