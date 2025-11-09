@@ -1,14 +1,9 @@
-# Gemini [![Build Status](https://github.com/anishathalye/gemini/actions/workflows/ci.yml/badge.svg)](https://github.com/anishathalye/gemini/actions/workflows/ci.yml)
+# Unofficial Poster Template for San Francisco State University
+ [![Overleaf Template](https://img.shields.io/badge/Overleaf-Template-success?logo=overleaf)](https://www.overleaf.com/read/bxgxyqrmjthf#50ff30)
 
-Gemini is a modern LaTeX [beamerposter] theme.
+A fork of Gemini. Also available on [Overleaf](https://www.overleaf.com/read/bxgxyqrmjthf#50ff30).
 
-<p align="center">
-<a href="https://raw.githubusercontent.com/anishathalye/assets/master/gemini/poster-gemini.pdf">
-<img src="https://raw.githubusercontent.com/anishathalye/assets/master/gemini/poster-gemini-small.png">
-</a>
-</p>
-
-If you're looking for a beamer presentation theme, take a look at [Auriga].
+<img width="9600" height="7200" alt="Unofficial_Poster_Template_for_SFSU" src="https://github.com/user-attachments/assets/df76c37a-8eb4-4ac2-af16-603cd0fc3dbf" />
 
 ## Dependencies
 
@@ -21,66 +16,9 @@ If you're looking for a beamer presentation theme, take a look at [Auriga].
 
 1. Copy the files in this repository (or clone the repository)
 
-1. In `poster.tex`, set up your paper size, column layout, and scale the content as necessary
-
-1. Make a copy of `beamercolorthemegemini.sty`, update the `\usecolortheme` line in `poster.tex`, and theme the poster to your liking (optional, but highly recommended)
+1. In `poster.tex`, set up your paper size, column layout, and scale the content as necessary (All three Ctrl+P Print Shop poster sizes are included)
 
 1. Run `make` to build your poster
-
-## FAQ
-
-See the [FAQ] in the Wiki for answers to frequently asked questions such as how to add an institution logo to the poster.
-
-## Themes
-
-Gemini includes several color themes, and it's also easy to make your own. Gemini has three built-in themes:
-
-- `gemini`, default
-- `mit` ([Massachusetts Institute of Technology](https://mit.edu))
-- `labsix` ([LabSix](https://www.labsix.org/))
-
-The community has also contributed a number of themes:
-
-<!-- keep these in sorted order by theme name -->
-
-- `bristol` ([University of Bristol](https://www.bristol.ac.uk/))
-- `dart` ([Dartmouth College](https://dartmouth.edu))
-- `snu` ([Seoul National University](https://snu.ac.kr))
-- `stetson` ([Stetson University](https://stetson.edu))
-- `umich` ([University of Michigan](https://umich.edu/))
-- `warwick` ([University of Warwick](https://warwick.ac.uk/))
-
-If you create a Gemini theme, feel free to send a pull request to add it here!
-
-### MIT theme
-
-<p align="center">
-<a href="https://raw.githubusercontent.com/anishathalye/assets/master/gemini/poster-mit.pdf">
-<img src="https://raw.githubusercontent.com/anishathalye/assets/master/gemini/poster-mit-small.png">
-</a>
-</p>
-
-### LabSix theme
-
-<p align="center">
-<a href="https://raw.githubusercontent.com/anishathalye/assets/master/gemini/poster-labsix.pdf">
-<img src="https://raw.githubusercontent.com/anishathalye/assets/master/gemini/poster-labsix-small.png">
-</a>
-</p>
-
-## Design goals
-
-- **Minimal**: clean and easy to read, so that the emphasis is on the content
-- **Batteries included**: works and looks good out of the box
-- **Easy theming**: easy to create and use a new color theme
-
-## Contributing
-
-Contributions to Gemini such as bug reports, new themes, and new poster components are greatly appreciated! Given the subjective nature of design, you're encouraged to open an issue or pull request early to get feedback before investing a lot of time in implementing a new feature.
-
-## License
-
-Copyright (c) Anish Athalye. Released under the MIT License. See [LICENSE.md][license] for details.
 
 [beamerposter]: https://github.com/deselaers/latex-beamerposter
 [Auriga]: https://github.com/anishathalye/auriga
